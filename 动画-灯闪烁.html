@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .dengpao {
+            position: absolute;
+            top: 300px;
+            left: 300px;
+        }
+        
+        .guang {
+            position: absolute;
+            top: 235px;
+            left: 222px;
+            animation: anim 1s ease 0s infinite alternate;
+        }
+        
+        @keyframes anim {
+            from {
+                opacity: 1;
+            }
+            to {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img class="dengpao" src="images/dengpao.png" alt="">
+        <img class="guang" src="images/guang.png" alt="">
+    </div>
+</body>
+
+</html>
